@@ -1,27 +1,27 @@
-# Bootstrap
+# Disrupt Challengue - Portoviejo (Prototipo)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+Prototipo realizado en Angular 7.2.0
 
-## Development server
+## Desarrollador
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Nombres:Joseph Garcia
+- Contacto:0939308696
 
-## Code scaffolding
+## Diseñador
+- Nombres:Simon Dasilva
+- Contacto:0983950846
+- Bhance:https://www.behance.net/Simondasilva15
+- Instagram:simondasilva15
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Administrador de Servidores - Oracle
+- Nombres:Oswaldo Suarez
+- Contacto:0980584513
 
-## Build
+## Demo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![demo1](https://user-images.githubusercontent.com/24982317/52355237-fc6e5800-29ff-11e9-8709-30069dd3b2f3.jpg)
+![demo2](https://user-images.githubusercontent.com/24982317/52355243-fed0b200-29ff-11e9-91f4-3f6420d524f3.jpg)
+![demo3](https://user-images.githubusercontent.com/24982317/52355248-01330c00-2a00-11e9-860f-a0ba1b6262cb.jpg)
+![demo4](https://user-images.githubusercontent.com/24982317/52355252-02fccf80-2a00-11e9-89e1-47eae9cc1d8c.jpg)
+![demo5](https://user-images.githubusercontent.com/24982317/52355254-042dfc80-2a00-11e9-80c3-4dc7fd460799.jpg)

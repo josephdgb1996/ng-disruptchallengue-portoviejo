@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="card col-12">
+      <!--Elije Departamento-->
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="exampleSelect1">Elija Departamento</label>
+            <select class="form-control input-lg" id="exampleSelect1">
+              <option>Agua</option>
+              <option>Luz</option>
+              <option>Bomberos</option>
+              <option>Ecu 911</option>
+              <option>Internet</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="exampleTextarea">Descripcion del problema?</label>
+            <textarea class="form-control" rows="6"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="exampleTextarea">Cuando ocurrio el problema?</label>
+            <textarea class="form-control" rows="6"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <button class='btn btn-primary' (click)='send()'>Enviar</button>
+
+    </div>
+  </div>
+</div>

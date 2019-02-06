@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+      <div class="col-sm-4 col-md-4 col-xs-2 card-resumen">
+        <div class="card bg-info text-white">
+          <div class="card-body">
+              <div class="card-title"><h5>Incidencias</h5></div>
+              <div class="number">500</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-2 card-resumen">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <div class="card-title"><h5>Proyectos</h5></div>
+                <div class="number">600</div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 col-xs-2 card-resumen">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <div class="card-title"><h5>Tareas</h5></div>
+                <div class="number">800</div>
+            </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="row section-chart">
+    <div class="col-12">
+        <ngx-charts-pie-chart
+        [view]="view"
+        [scheme]="colorScheme"
+        [results]="data"
+        [labels]="showLabels">
+      </ngx-charts-pie-chart>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<app-cintillo></app-cintillo>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary" id="sidebar">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+            <ng-container *ngFor="let menu of _navbarHorizontal.menu">
+                <li class="nav-item active">
+                    <a class="nav-link text-white mouse-hover" (click)="navigate(menu.url)">{{menu.title}}<span class="sr-only">(current)</span></a>
+                </li>
+            </ng-container>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0 d-lg-block">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
+            <button class="btn btn-ligth my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+    </div>
+</nav>
+
+<app-banner></app-banner>
+
